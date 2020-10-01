@@ -16,7 +16,7 @@ Based on -romainl- script -  https://gist.github.com/romainl/eae0a260ab9c135390c
 
 ## Additions:
 
-- by default use :new instead of :vnew
+- by default use :vnew instead of :new
 - accepts modifiers like :vertical or :aboveleft to control where the
   scratchpad will be positioned
 - adds support for opening scratchpads for registers via @ prefix
@@ -25,3 +25,4 @@ Based on -romainl- script -  https://gist.github.com/romainl/eae0a260ab9c135390c
 ## TODO:
 
 - support for specifying filetype via +ft
+- add config option for default split type

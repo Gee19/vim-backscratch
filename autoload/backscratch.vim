@@ -14,7 +14,7 @@ function! backscratch#open(mods, cmd) abort
         let l:output = split(execute(a:cmd), "\n")
     endif
 
-    execute a:mods . ' new'
+    execute a:mods . ' vnew'
     Scratchify
     call setline(1, l:output)
 endfunction
